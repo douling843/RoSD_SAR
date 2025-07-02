@@ -29,3 +29,11 @@ pip install -e .
 #  Generate noisy annotations: (e.g., 40% noise)
 python ./utils/gen_noisy_ssdd.py --box_noise_level 0.4
 
+# Train
+python tools/train.py configs/faster_rcnn/faster_rcnn_r50_fpn_1x_ssdd_RoSD_SAR.py --work-dir='work_dir/ssdd/faster_rcnn_r50_fpn_1x_ssdd_RoSD_SAR' 
+
+# Inference
+python tools/train.py configs/faster_rcnn/faster_rcnn_r50_fpn_1x_ssdd_RoSD_SAR.py  work_dirs/ssdd/faster_rcnn_r50_fpn_1x_ssdd_RoSD_SAR/epoch_12.pth --show-dir work_dirs/vis/ssdd/RoSD_SAR
+
+
+
