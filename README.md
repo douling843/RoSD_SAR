@@ -24,3 +24,9 @@ MMCV_WITH_OPS=1 pip install -e .
 cd ..
 
 pip install -e .
+
+
+#  Generate noisy annotations:
+
+
+
