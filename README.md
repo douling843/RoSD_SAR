@@ -28,5 +28,6 @@ pip install -e .
 
 #  Generate noisy annotations:
 
-
+# generate noisy COCO (e.g., 40% noise)
+python ./utils/gen_noisy_ssdd.py --box_noise_level 0.4
 
