@@ -9,7 +9,7 @@
 👨‍💻   **Code:** [GitHub](https://github.com/douling843/RoSD_SAR/edit/main)
 
 
-## Installation  <img src="images/Installation.svg" width="2%">
+## Installation  <img src="images/Installation.svg" width="4%">
 
 
 - <span> Set up environment
@@ -39,19 +39,19 @@ cd ..
 pip install -e .
 
 
-##  Generate noisy annotations: (e.g., 40% noise)
+##  Generate noisy annotations: (e.g., 40% noise)  <img src="images/noisy.svg" width="4%">
 python ./utils/gen_noisy_ssdd.py --box_noise_level 0.4
 
-## Train
+## Train <img src="images/train.svg" width="4%">
 python tools/train.py configs/faster_rcnn/faster_rcnn_r50_fpn_1x_ssdd_RoSD_SAR.py --work-dir='work_dir/ssdd/faster_rcnn_r50_fpn_1x_ssdd_RoSD_SAR' 
 
-## Inference
+## Inference <img src="images/inference.svg" width="4%">
 python tools/train.py configs/faster_rcnn/faster_rcnn_r50_fpn_1x_ssdd_RoSD_SAR.py  work_dirs/ssdd/faster_rcnn_r50_fpn_1x_ssdd_RoSD_SAR/epoch_12.pth --show-dir work_dirs/vis/ssdd/RoSD_SAR
 
 
-🤝  ## Acknowledgement  📫
+## Acknowledgement  📫
 
-This repository is based on [mmdetection](https://github.com/open-mmlab/mmdetection) and [OA-MIL](https://github.com/cxliu0/OA-MIL).
+This repository is based on [mmdetection](https://github.com/open-mmlab/mmdetection) 🤝  and [OA-MIL](https://github.com/cxliu0/OA-MIL).
 
 
 
