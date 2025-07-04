@@ -51,7 +51,7 @@ python tools/train.py configs/faster_rcnn/faster_rcnn_r50_fpn_1x_ssdd_RoSD_SAR.p
 
 ## Acknowledgement  📫
 
-This repository is based on [mmdetection](https://github.com/open-mmlab/mmdetection) 🤝  and [OA-MIL](https://github.com/cxliu0/OA-MIL).
+This repository is based on [mmdetection](https://github.com/open-mmlab/mmdetection) 🤝  and [OA-MIL](https://github.com/cxliu0/OA-MIL) 👯.
 
 
 
