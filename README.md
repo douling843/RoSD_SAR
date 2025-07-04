@@ -2,7 +2,8 @@
 
 ![image text](https://github.com/douling843/RoSD_SAR/blob/main/images/fig3.jpg)
 
-This repository includes the official implementation of the paper:
+This repository includes the official implementation of the paper:  
+
 RoSD-SAR: Robust Ship Detection in SAR Images with Noisy Box Labels
 # Installation 
 
