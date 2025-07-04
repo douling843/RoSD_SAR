@@ -1,6 +1,4 @@
-# RoSD_SAR  ![image text](https://github.com/douling843/RoSD_SAR/blob/main/images/linux-original.svg){width=300px}
-
-
+# RoSD_SAR    <img src="images/linux-original.svg" width="10%">
 
 ![image text](https://github.com/douling843/RoSD_SAR/blob/main/images/fig3.jpg)
 
