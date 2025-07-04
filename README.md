@@ -1,4 +1,5 @@
-# RoSD_SAR
+# RoSD_SAR   ![image](https://github.com/user-attachments/assets/3f614460-d763-49a3-8fe4-38f5cf5bf8ae)
+
 
 ![image text](https://github.com/douling843/RoSD_SAR/blob/main/images/fig3.jpg)
 
@@ -6,7 +7,7 @@
 
 👋   **RoSD-SAR: Robust Ship Detection in SAR Images with Noisy Box Labels**
 
-**Code:** [GitHub](https://github.com/douling843/RoSD_SAR/edit/main)
+👨‍💻   **Code:** [GitHub](https://github.com/douling843/RoSD_SAR/edit/main)
 
 
 ## Installation  
@@ -49,7 +50,7 @@ python tools/train.py configs/faster_rcnn/faster_rcnn_r50_fpn_1x_ssdd_RoSD_SAR.p
 python tools/train.py configs/faster_rcnn/faster_rcnn_r50_fpn_1x_ssdd_RoSD_SAR.py  work_dirs/ssdd/faster_rcnn_r50_fpn_1x_ssdd_RoSD_SAR/epoch_12.pth --show-dir work_dirs/vis/ssdd/RoSD_SAR
 
 
-## Acknowledgement
+🤝  ## Acknowledgement  📫
 
 This repository is based on [mmdetection](https://github.com/open-mmlab/mmdetection) and [OA-MIL](https://github.com/cxliu0/OA-MIL).
 
