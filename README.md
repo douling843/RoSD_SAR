@@ -5,6 +5,10 @@
 This repository includes the official implementation of the paper:  
 
 **RoSD-SAR: Robust Ship Detection in SAR Images with Noisy Box Labels**
+
+**Code:** [GitHub](https://github.com/douling843/RoSD_SAR/edit/main)
+
+
 ## Installation 
 
 conda create -n RoSD_SAR python=3.7
