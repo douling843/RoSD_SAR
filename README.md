@@ -12,14 +12,14 @@ This repository includes the official implementation of the paper:
 ## Installation 
 
 
-### Set up environment
+- <span>&#8226;</span> ### Set up environment
 conda create -n RoSD_SAR python=3.7
 conda activate RoSD_SAR
 
-### install pytorch
+- <span>&#8226;</span> ### install pytorch
 conda install pytorch==1.10.0 torchvision==0.11.0 -c pytorch -c conda-forge
 
-### Install
+- <span>&#8226;</span> ### Install
 git clone https://github.com/douling843/RoSD_SAR.git
 cd RoSD_SAR
 pip install -r requirements/build.txt
