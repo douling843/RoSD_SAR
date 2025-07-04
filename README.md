@@ -4,8 +4,8 @@
 
 This repository includes the official implementation of the paper:  
 
-RoSD-SAR: Robust Ship Detection in SAR Images with Noisy Box Labels
-# Installation 
+**RoSD-SAR: Robust Ship Detection in SAR Images with Noisy Box Labels**
+## Installation 
 
 conda create -n RoSD_SAR python=3.7
 
@@ -31,13 +31,13 @@ cd ..
 pip install -e .
 
 
-#  Generate noisy annotations: (e.g., 40% noise)
+##  Generate noisy annotations: (e.g., 40% noise)
 python ./utils/gen_noisy_ssdd.py --box_noise_level 0.4
 
-# Train
+## Train
 python tools/train.py configs/faster_rcnn/faster_rcnn_r50_fpn_1x_ssdd_RoSD_SAR.py --work-dir='work_dir/ssdd/faster_rcnn_r50_fpn_1x_ssdd_RoSD_SAR' 
 
-# Inference
+## Inference
 python tools/train.py configs/faster_rcnn/faster_rcnn_r50_fpn_1x_ssdd_RoSD_SAR.py  work_dirs/ssdd/faster_rcnn_r50_fpn_1x_ssdd_RoSD_SAR/epoch_12.pth --show-dir work_dirs/vis/ssdd/RoSD_SAR
 
 
