@@ -14,7 +14,8 @@ This repository includes the official implementation of the paper:
 
 - <span> Set up environment
  
-conda create -n RoSD_SAR python=3.7
+conda create -n RoSD_SAR python=3.7  
+
 conda activate RoSD_SAR
 
 - <span> install pytorch
