@@ -45,4 +45,9 @@ python tools/train.py configs/faster_rcnn/faster_rcnn_r50_fpn_1x_ssdd_RoSD_SAR.p
 python tools/train.py configs/faster_rcnn/faster_rcnn_r50_fpn_1x_ssdd_RoSD_SAR.py  work_dirs/ssdd/faster_rcnn_r50_fpn_1x_ssdd_RoSD_SAR/epoch_12.pth --show-dir work_dirs/vis/ssdd/RoSD_SAR
 
 
+## Acknowledgement
+
+This repository is based on [mmdetection](https://github.com/open-mmlab/mmdetection) and [OA-MIL](https://github.com/cxliu0/OA-MIL).
+
+
 
