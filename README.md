@@ -1,6 +1,7 @@
 # RoSD_SAR    <img src="images/linux-original.svg" width="5%">  <img src="images/python-original.svg" width="5%">  <img src="images/pytorch-icon.svg" width="5%">  
 
-![image text](https://github.com/douling843/RoSD_SAR/blob/main/images/fig3.jpg)
+![image text](https://github.com/douling843/RoSD_SAR/blob/main/images/fig3.jpg)  
+
 
 ⚡   This repository includes the official implementation of the paper:  
 
