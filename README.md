@@ -9,7 +9,7 @@
 👨‍💻   **Code:** [GitHub](https://github.com/douling843/RoSD_SAR/edit/main)
 
 
-## Installation  
+## Installation  <img src="images/Installation.svg" width="5%">
 
 
 - <span> Set up environment
