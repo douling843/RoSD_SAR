@@ -16,9 +16,9 @@
 - <span> Set up environment
 
 
-conda create -n RoSD_SAR python=3.7  
+`conda create -n RoSD_SAR python=3.7`  
 
-conda activate RoSD_SAR
+`conda activate RoSD_SAR`
 
 - <span> install pytorch
  
