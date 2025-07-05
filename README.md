@@ -16,8 +16,6 @@
 - <span> Set up environment
 
 
- 
-```bash
 conda create -n RoSD_SAR python=3.7  
 
 conda activate RoSD_SAR
