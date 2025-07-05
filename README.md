@@ -5,7 +5,7 @@
 
 ⚡   This repository includes the official implementation of the paper:  
 
-👋  <font color=#0099ff size=7 face="黑体">color=#0099ff size=72 face="**RoSD-SAR: Robust Ship Detection in SAR Images with Noisy Box Labels** "</font>
+👋  **RoSD-SAR: Robust Ship Detection in SAR Images with Noisy Box Labels**
 
 👨‍💻   **Code:** [GitHub](https://github.com/douling843/RoSD_SAR/edit/main)
 
