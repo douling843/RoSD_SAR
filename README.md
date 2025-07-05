@@ -22,33 +22,33 @@
 
 - <span> install pytorch
  
-conda install pytorch==1.10.0 torchvision==0.11.0 -c pytorch -c conda-forge
+`conda install pytorch==1.10.0 torchvision==0.11.0 -c pytorch -c conda-forge`
 
 - <span> Install
   
-git clone https://github.com/douling843/RoSD_SAR.git  
+`git clone https://github.com/douling843/RoSD_SAR.git`  
 
-cd RoSD_SAR  
+`cd RoSD_SAR`  
 
-pip install -r requirements/build.txt  
+`pip install -r requirements/build.txt`  
 
-cd mmcv  
+`cd mmcv`  
 
-MMCV_WITH_OPS=1 pip install -e .  
+`MMCV_WITH_OPS=1 pip install -e .`  
 
-cd ..  
+`cd ..`  
 
-pip install -e .
+`pip install -e .`
 
 
 ##  Generate noisy annotations: (e.g., 40% noise)  <img src="images/noisy.svg" width="4%">
-python ./utils/gen_noisy_ssdd.py --box_noise_level 0.4
+`python ./utils/gen_noisy_ssdd.py --box_noise_level 0.4`
 
 ## Train <img src="images/train.svg" width="4%">
-python tools/train.py configs/faster_rcnn/faster_rcnn_r50_fpn_1x_ssdd_RoSD_SAR.py --work-dir='work_dir/ssdd/faster_rcnn_r50_fpn_1x_ssdd_RoSD_SAR' 
+`python tools/train.py configs/faster_rcnn/faster_rcnn_r50_fpn_1x_ssdd_RoSD_SAR.py --work-dir='work_dir/ssdd/faster_rcnn_r50_fpn_1x_ssdd_RoSD_SAR'` 
 
 ## Inference   <img src="images/inf.svg" width="4%">
-python tools/train.py configs/faster_rcnn/faster_rcnn_r50_fpn_1x_ssdd_RoSD_SAR.py  work_dirs/ssdd/faster_rcnn_r50_fpn_1x_ssdd_RoSD_SAR/epoch_12.pth --show-dir work_dirs/vis/ssdd/RoSD_SAR
+`python tools/train.py configs/faster_rcnn/faster_rcnn_r50_fpn_1x_ssdd_RoSD_SAR.py  work_dirs/ssdd/faster_rcnn_r50_fpn_1x_ssdd_RoSD_SAR/epoch_12.pth --show-dir work_dirs/vis/ssdd/RoSD_SAR`
 
 
 ## Acknowledgement  📫
